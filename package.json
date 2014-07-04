@@ -1,0 +1,9 @@
+{
+  "name": "My-Social-Network",
+  "description": "My Social Network",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.x"
+  }
+}
