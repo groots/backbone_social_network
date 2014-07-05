@@ -5,7 +5,7 @@ var handlebars = require("express3-handlebars");
 
 app.set("port", process.env.PORT || 8000);
 app.set("views", "./views");
-app.engine('hbs', handlebars({extname:'hbs', defaultLayout:'main.hbs'}));
+app.engine('hbs', handlebars({extname:'hbs'}));
 app.set("view engine", "hbs");
 app.get("/", function(res, res){
 	res.render("index", {
