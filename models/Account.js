@@ -12,6 +12,10 @@ models.exports = function(config, mongoose, nodemailer){
 			day: {type: Number, min: 1, max: 31, rquired: false},
 			month: {type: Number, min: 1, max: 12, rquired: false},
 			year: {type: Number}
-		}
+		}, 
+		photoUrl: {type: String},
+		biography: {type: String}
 	});
+
+	var Account = mongoose.model('')
 }

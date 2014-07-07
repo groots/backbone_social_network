@@ -1,6 +1,7 @@
 var express = require("express");
 var http = require("http");
 var app = express();
+var mongoose = require('mongoose');
 var handlebars = require("express3-handlebars");
 
 app.set("port", process.env.PORT || 8000);
