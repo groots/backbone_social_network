@@ -1,7 +1,9 @@
 define([
 	"router"
 ],
-function(router){
+function(
+router
+){
 	var initilize = function(){
 		checkLogin(runApplication);
 	};
@@ -26,7 +28,7 @@ function(router){
 		}
 		Backbone.history.start();
 	};
-	
+
 	return {
 		initilize:initilize
 	};
